@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &40919614 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 394283275695632130, guid: 9ea6ce28b6ed547a3bbbcc9ad84aa1cf, type: 3}
+  m_PrefabInstance: {fileID: 2611015496718334548}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &53973067
 GameObject:
   m_ObjectHideFlags: 0
@@ -696,6 +701,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &223974226 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3539500886621402928, guid: f1aa9a903e1cd45468923b304a506ffe, type: 3}
+  m_PrefabInstance: {fileID: 6293931915394981291}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &229300834
 GameObject:
   m_ObjectHideFlags: 0
@@ -1511,6 +1521,8 @@ MonoBehaviour:
   layer:
     serializedVersion: 2
     m_Bits: 128
+  hitEffectPrefab: {fileID: 1000011945391522, guid: 78b71003e8b357d4bbf89c8b5e5e4f0e, type: 3}
+  cubeHalfPrefab: {fileID: 40919614}
 --- !u!1 &509294145
 GameObject:
   m_ObjectHideFlags: 0
@@ -4556,6 +4568,8 @@ MonoBehaviour:
   layer:
     serializedVersion: 2
     m_Bits: 256
+  hitEffectPrefab: {fileID: 1000011945391522, guid: 78b71003e8b357d4bbf89c8b5e5e4f0e, type: 3}
+  cubeHalfPrefab: {fileID: 223974226}
 --- !u!1 &2122338118
 GameObject:
   m_ObjectHideFlags: 0
